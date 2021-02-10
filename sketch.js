@@ -24,7 +24,7 @@ function setup() {
 	wall = new Wall(width/2+200, 635, 200, 20);
 	wallz = new Wall(width/2+298, 545, 20, 200);
 	walla = new Wall(width/2+93, 545, 20, 200);
-	ball = new Ball(300, 300);
+	ball = new Ball(300, 300, 25, 25);
 	ground = new Ground(width/2, 648, 3000, 10);
 	Engine.run(engine);
   
